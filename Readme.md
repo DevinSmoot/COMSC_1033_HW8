@@ -28,13 +28,8 @@ call.
 
 3. Use the command prompt to make the connections:
 	
-	a. Navigate to the correct location. Looking for src and bin folders.
-	
-```
-cd E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8
-```
-
-	b. Use dir to verify correct folder. Should see src and bin folders.
+	*	Navigate to the correct location. Looking for src and bin folders. ``cd E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8``
+	*	Use dir to verify correct folder. Should see src and bin folders.
 	
 ```
  E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8>dir
