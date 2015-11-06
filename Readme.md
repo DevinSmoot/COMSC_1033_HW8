@@ -49,71 +49,71 @@ call.
 
 3. Use the command prompt to make the connections:
 	
-	a. Navigate to the correct location. Looking for src and bin folders.
+	*	Navigate to the correct location. Looking for src and bin folders.
 	
-```
-cd E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8
-```
+		```
+		cd E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8
+		```
 
-	b. Use dir to verify correct folder. Should see src and bin folders.
+	*	Use dir to verify correct folder. Should see src and bin folders.
 	
-```
- E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8>dir
- Volume in drive E has no label.
- Volume Serial Number is 5D48-ACED
+		```
+		 E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8>dir
+		 Volume in drive E has no label.
+		 Volume Serial Number is 5D48-ACED
+		
+		 Directory of E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8
+		
+		11/02/2015  09:22 AM    <DIR>          .
+		11/02/2015  09:22 AM    <DIR>          ..
+		11/02/2015  09:22 AM               390 .project
+		11/02/2015  09:22 AM    <DIR>          src
+		11/02/2015  09:22 AM    <DIR>          bin
+		11/02/2015  09:22 AM               232 .classpath
+		               2 File(s)            622 bytes
+		               4 Dir(s)   7,943,340,032 bytes free
+		```
 
- Directory of E:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_HW8
-
-11/02/2015  09:22 AM    <DIR>          .
-11/02/2015  09:22 AM    <DIR>          ..
-11/02/2015  09:22 AM               390 .project
-11/02/2015  09:22 AM    <DIR>          src
-11/02/2015  09:22 AM    <DIR>          bin
-11/02/2015  09:22 AM               232 .classpath
-               2 File(s)            622 bytes
-               4 Dir(s)   7,943,340,032 bytes free
-```
-
-c. Create a new Untitled Text File in Eclipse
+	*	Create a new Untitled Text File in Eclipse
 	
-: File->Untitled Text File
+		: File->Untitled Text File
 	
-d. Save the file and select location for file
+	*	Save the file and select location for file
 	
-: File->Save As...
+		: File->Save As...
 	
-Save the file in the COMSC_1033_HW8 folder
+		Save the file in the COMSC_1033_HW8 folder
 	
-e. Now you can add, commit, and push changes to Github.
+	*	Now you can add, commit, and push changes to Github.
 	
-Set user information.
-```
-git config user.name "DevinSmoot"
-	
-git config user.email smootd@student.swosu.edu
-```
-	
-Initialize the new repository on the local machine.
-```
-git init
-```
-	
-Next add all files to the repository.
-```
-git add .
-```
-	
-Now you can commit those changes.
-```
-git commit -m "Initial commit"
-```
-	
-Now you push to the remote repository. This is shown on Github once the repository is created.
-```
-git remote add origin https://github.com/DevinSmoot/COMSC_1033_HW8.git
-
-git push -u origin master
-```
+		Set user information.
+		```
+		git config user.name "DevinSmoot"
+			
+		git config user.email smootd@student.swosu.edu
+		```
+			
+		Initialize the new repository on the local machine.
+		```
+		git init
+		```
+			
+		Next add all files to the repository.
+		```
+		git add .
+		```
+			
+		Now you can commit those changes.
+		```
+		git commit -m "Initial commit"
+		```
+			
+		Now you push to the remote repository. This is shown on Github once the repository is created.
+		```
+		git remote add origin https://github.com/DevinSmoot/COMSC_1033_HW8.git
+		
+		git push -u origin master
+		```
 	
 	
 	
