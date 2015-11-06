@@ -150,7 +150,7 @@ Ran the program multiple times and recieved a random upper-case letter each time
 			*	Isolate problems by commenting out working code
 			*	Isolate variable problems by hard coding variables
 		*	Confirm code works with 'True' statements, 'False' statements', and a mixture of both
-		*	When comfortable with code. Merge into master.
+		*	When comfortable with code. Merge into master. (Not applicable to this lesson)
 		
 	*	Commit changes to Github.com
 		
@@ -160,14 +160,6 @@ Ran the program multiple times and recieved a random upper-case letter each time
 		git commit -m "Saving working and tested code. 100% tested."
 		
 		git push
-		```
-		
-	*	Merge into master branch
-		
-		```
-		git checkout master
-		
-		git merge dev
 		```
 	
 ## Summary
