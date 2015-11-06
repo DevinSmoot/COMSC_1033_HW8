@@ -114,7 +114,37 @@ call.
 		
 		git push -u origin master
 		```
+		
+	*	Type in code for program using the following format:
+		
+		*	Identify variables needed
+		*	Type pseudocode
+		*	Fill in pseudocode with actual code
+		*	Test code
+			*	Isolate problems by commenting out working code
+			*	Isolate variable problems by hard coding variables
+		*	Confirm code works with 'True' statements, 'False' statements', and a mixture of both
+		*	When comfortable with code. Merge into master.
+		
+	*	Commit changes to Github.com
+		
+		```
+		git add .
+		
+		git commit -m "Saving working and tested code. 100% tested."
+		
+		git push
+		```
+		
+	*	Merge into master branch
+		
+		```
+		git checkout master
+		
+		git merge dev
+		```
 	
+## Summary
 	
 	
 		
